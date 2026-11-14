@@ -9,7 +9,7 @@ Daniela Cataño Hernández · John Freddy Ocampo Ochoa · Óscar Alonso De La Pa
 
 | Ruta | Descripción |
 |---|---|
-| `EA3_comparacion_climatica/EA3_Catano_Daniela.ipynb` | Notebook ejecutado: planteamiento, carga y revisión, análisis con NumPy, tres gráficas e interpretación. |
+| `EA3_comparacion_climatica/EA3_GRUPO_3.ipynb` | Notebook ejecutado: planteamiento, carga y revisión, análisis con NumPy, tres gráficas e interpretación. |
 | `EA3_comparacion_climatica/datos/medellin.csv` | Datos diarios de Medellín, 2024-01-01 a 2024-12-31. |
 | `EA3_comparacion_climatica/datos/ciudad_otro_pais.csv` | Datos diarios de Madrid (España), mismo periodo. |
 
@@ -28,4 +28,20 @@ Open-Meteo, *Historical Weather API* (reanálisis ERA5 / ERA5-Land de Copernicus
 pip install numpy pandas matplotlib jupyter
 ```
 
-Abrir `EA3_comparacion_climatica/EA3_Catano_Daniela.ipynb` con esa carpeta como directorio de trabajo y ejecutar **Restart → Run All**. El notebook usa los CSV de `datos/`; si no existen, los descarga desde los enlaces anteriores.
+Abrir `EA3_comparacion_climatica/EA3_GRUPO_3.ipynb` con esa carpeta como directorio de trabajo y ejecutar **Restart → Run All**. El notebook usa los CSV de `datos/`; si no existen, los descarga desde los enlaces anteriores.
+
+## Resultados principales (2024)
+
+| Indicador | Medellín | Madrid |
+|---|---|---|
+| Temperatura media anual | 20,8 °C | 15,8 °C |
+| Mes más frío → mes más cálido | 19,7 °C (nov) → 22,1 °C (mar) | 6,2 °C (dic) → 28,4 °C (ago) |
+| Temperaturas extremas | 13,9 °C / 31,8 °C | −2,6 °C / 40,4 °C |
+| Precipitación total | 2.176 mm | 491 mm |
+| Días lluviosos (≥ 1 mm) | 259 | 80 |
+
+- **Diferencia:** la temperatura de Madrid cambia 22,2 °C entre su mes más frío y el más cálido; la de Medellín, solo 2,5 °C.
+- **Similitud:** en junio y septiembre las medias mensuales de ambas ciudades quedaron a menos de 2 °C, y la amplitud térmica diaria es parecida (10,6 °C en Medellín y 11,5 °C en Madrid).
+- **Diferencia:** Medellín acumuló 4,4 veces más lluvia, con dos temporadas húmedas (máximos en mayo y noviembre); Madrid no registró lluvia en julio.
+
+Son asociaciones observadas en un solo año de datos de reanálisis; no permiten afirmar causas ni describen el clima de largo plazo.
